@@ -29,5 +29,5 @@ jobs:
         with:
          username: ${{ secrets.DOCKER_USER}}
          password: ${{ secrets.DOCKER_PASS}}
-         repository: kimchi1503/Algo_Viz
+         repository: kimchi1503/algo
          tags: latest
