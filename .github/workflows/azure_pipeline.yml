@@ -22,3 +22,6 @@ jobs:
           CI: false
       - name: Generate build
         run: CI=false npm run build
+      - name: Npm test
+        run: npm run test
+   
