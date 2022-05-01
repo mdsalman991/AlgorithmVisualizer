@@ -20,7 +20,7 @@ jobs:
         run: npm install   
         env:
           CI: false
-      - name: Generate build #
+      - name: Generate build
         run: CI=false npm run build
       - name: Build the Docker image
         run: docker build -f Dockerfile -t kimchi1503/algo .
