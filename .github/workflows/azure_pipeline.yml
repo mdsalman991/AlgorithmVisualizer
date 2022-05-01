@@ -22,8 +22,6 @@ jobs:
           CI: false
       - name: Generate build
         run: CI=false npm run build
-      - name: Npm test
-        run: npm run test
       - name: Build the Docker image
         run: docker build -f Dockerfile -t client .
       - name: Publish to Docker Hub
