@@ -4,8 +4,6 @@ import sort from "./sort.png";
 import queen from "./images/queen.PNG";
 import binSearch from "./images/binaryTree.png";
 import convex from './images/convexHull.png';
-import puzzle from './images/15puzzle.PNG';
-import sudoku from './images/sudoku.png';
 export function getDetails(){
    return [
        {
