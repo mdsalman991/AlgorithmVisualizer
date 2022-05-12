@@ -31,6 +31,11 @@ jobs:
          password: ${{ secrets.DOCKER_PASS}}
          repository: kimchi1503/algo
          tags: latest
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./build
   deploy:
     name: Deploy
     needs: build
