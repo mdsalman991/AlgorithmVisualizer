@@ -29,17 +29,6 @@ I have implemented a total of `14 algorithms` so far. And will try to add more l
 - Graham Scan for Convex Hull
 - Binary Search
 
-
-
-I am not sure if anyone would like to contribute to this project or not. But any kind of contributions are welcomes. Also if you like this please star this repo. It keeps me motivated.
-
-### Special Features addition timeline
-
-- Commit 16: Added Flip Move animation to inplace sorting components
-
-
-### Note to self:
-
 To deploy recent changes to page
 
 ```
