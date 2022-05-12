@@ -57,21 +57,7 @@ export function getDetails(){
            route:"/binarysearch",
            img:binSearch
        },
-       {
-           id:6,
-           title:"Sudoku",
-           description:"Coming soon...",
-           route:"/",
-           img:sudoku
-       },
 
-       {
-           id:8,
-           title:"15 Puzzle",
-           description:"Coming soon...",
-           route:"/",
-           img:puzzle
-       }
 
    ]
 }
