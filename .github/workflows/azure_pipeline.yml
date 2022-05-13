@@ -22,15 +22,15 @@ jobs:
           CI: false
       - name: Generate build
         run: CI=false npm run build
-      - name: Build the Docker image
-        run: docker build -f Dockerfile -t kimchi1503/algo .
-      - name: Publish to Docker Hub
-        uses: docker/build-push-action@v1
-        with:
-         username: ${{ secrets.DOCKER_USER}}
-         password: ${{ secrets.DOCKER_PASS}}
-         repository: kimchi1503/algo
-         tags: latest
+#       - name: Build the Docker image
+#         run: docker build -f Dockerfile -t kimchi1503/algo .
+#       - name: Publish to Docker Hub
+#         uses: docker/build-push-action@v1
+#         with:
+#          username: ${{ secrets.DOCKER_USER}}
+#          password: ${{ secrets.DOCKER_PASS}}
+#          repository: kimchi1503/algo
+#          tags: latest
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
