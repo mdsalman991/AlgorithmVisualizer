@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import GitHubButton from 'react-github-btn'
 import "./style.css";
 class Footer extends Component {
     render() {
