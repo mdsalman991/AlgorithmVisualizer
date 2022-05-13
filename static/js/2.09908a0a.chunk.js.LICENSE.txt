@@ -4,12 +4,6 @@ object-assign
 @license MIT
 */
 
-/*!
- * github-buttons v2.21.1
- * (c) 2021 なつき
- * @license BSD-2-Clause
- */
-
 /**
  * A better abstraction over CSS.
  *
